@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-top: 35px;
+    /* box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px; */
+    margin-top: 53px;
+    /* box-shadow: -10px 8px 0px rgb(196 181 253); */
+    /* box-shadow: 10px 8px 0px rgb(191 219 254); */
+    box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff, inset 4px 4px 8px rgb(209 217 230 / 20%), inset -8px -8px 8px rgb(255 255 255 / 20%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #e8eff5;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    color: currentColor;
+    font-size: 40px;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 19px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    column-gap: 24px;
+
+}
+
+#laps{
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+}
+
+#laps h2{
+    font-family: 'Righteous', cursive;
+    color: currentColor;
+    font-size: 34px;
+    margin-bottom: -5px;
+}
+
+#lapList{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    list-style: circle;
+    font-family: 'Righteous', cursive;
+    color: currentColor;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 29px;
+}
+
+#lapList li{
+    list-style-type: disc;
+}
+.btn{
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d3748;
+    border: 1px solid #cbd5e0;
+    line-height: 26px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+
+}
