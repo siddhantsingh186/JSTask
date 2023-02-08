@@ -17,6 +17,7 @@ startButton.addEventListener('click', function () {
 
 stopButton.addEventListener('click', function () {
 	timer = false;
+	clearInterval(timerReference);
 });
 
 resetButton.addEventListener('click', function () {
@@ -90,6 +91,5 @@ function stopWatch() {
 		document.getElementById('minute').innerHTML = minuteString;
 		document.getElementById('second').innerHTML = secondString;
 		document.getElementById('milliSec').innerHTML = millisecString;
-		setTimeout(stopWatch, 10);
 	}
 }
